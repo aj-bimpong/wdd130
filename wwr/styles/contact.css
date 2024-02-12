@@ -1,26 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Slabo+27px&display=swap');
 
+:root{
+  --primary-color: #acecdf   ;
+  --secondary-color: #acfcd9 ;
+  --accent1-color: #d5ebc1;
+  --accent2-color: white;
 
-:root {
-    --primary-color: #acecdf   ;
-    --secondary-color: #acfcd9 ;
-    --accent1-color: #d5ebc1;
-    --accent2-color: white;
 
+  --heading-font: Oswald;
+  --paragraph-font: Slabo, Helvetica, sans-serif;
 
-    --heading-font: Oswald;
-    --paragraph-font: Slabo, Helvetica, sans-serif;
   
-    
-    --headline-color-on-white: #579498; 
-    --headline-color-on-color: #210808(255, 255, 255);  
-    --paragraph-color-on-white: #0d2545;  
-    --paragraph-color-on-color: #08300d;  
-    --paragraph-background-color: #5280a3  ;
-    --nav-link-color: #171717;
-    --nav-background-color: #27b070;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: #ecacb6;
+  --headline-color-on-white: #579498; 
+  --headline-color-on-color: #210808(255, 255, 255);  
+  --paragraph-color-on-white: #0d2545;  
+  --paragraph-color-on-color: #08300d;  
+  --paragraph-background-color: #5280a3  ;
+  --nav-link-color: #171717;
+  --nav-background-color: #27b070;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #ecacb6;     
 }
    
 body {
@@ -50,7 +49,7 @@ header{
 header img {
   height: auto;
   max-width: 100px;
-  gap: 20ox;
+  gap: 20px;
 }
 
 nav{
