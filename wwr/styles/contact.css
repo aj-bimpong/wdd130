@@ -175,17 +175,17 @@ footer {
   justify-content: end;
 }
 
-.adv_images{
+
+.my-people{
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
-.flex_item{
-  width: 200px;
-  height: auto;
-  
-}
+.employee-pic{
+  max-width: 400px;
 
+}
 
 
 
