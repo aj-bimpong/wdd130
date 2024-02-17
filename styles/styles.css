@@ -1,5 +1,5 @@
 *{
-    margin: 30;
+    margin: 1rem;
     padding: 0;
     box-sizing: border-box;
 }
@@ -58,6 +58,9 @@ aside img {
     height: auto;
   
 }
+h3{
+    left: 40%;
+}
 
 h2 {
     left: 40%;
@@ -94,7 +97,7 @@ aside {
 aside h2 {
     position: absolute;
     top: -10px;
-    left: 3;
+    left: 35%;
 }
 
 header, footer {
