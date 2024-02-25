@@ -12,7 +12,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  color: #000000;
+  color: yellow;
   background-image: url(../images/contact-page-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -155,13 +155,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: red;
+  font-size: 24px;
 }
 
 .employee-pic{
   max-width: 100%;
 }
 
-/* Trip description section */
+/* Trip section */
 .trip-description {
   display: flex;
   flex-wrap: wrap;
@@ -233,3 +235,10 @@ footer {
 .trip-table tbody tr:hover {
   background-color: #f9f9f9;
 }
+
+.his-text{
+  color: #f60000;
+  font-size: 24px;
+  font-style: normal;
+}
+
